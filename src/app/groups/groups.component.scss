@@ -7,3 +7,30 @@
  */
 
 @use '../shared/styles/list-layout' as *;
+
+.empty-state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  border: 2px dashed #e0e0e0;
+  border-radius: 12px;
+  margin: 20px 0;
+
+  .gray-text {
+    color: #757575;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+
+  fa-icon {
+    color: #bdbdbd;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-weight: 500;
+  }
+}
